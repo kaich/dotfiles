@@ -68,7 +68,8 @@ if !exists("g:yadr_disable_solarized_enhancements")
   hi! Comment guifg=#52737B
   hi! link htmlLink Include
   hi! CursorLine cterm=NONE gui=NONE
-  hi! Visual ctermbg=233
+  " hi! Visual ctermbg=233
+  hi! Visual  guifg=#623420 guibg=#50E3C2 gui=none
   hi! Type gui=bold
   hi! EasyMotionTarget ctermfg=100 guifg=#4CE660 gui=bold
 
